@@ -1,5 +1,5 @@
 // app/page.tsx
-import SendWhatsAppMessage from '@/components/SendWhatsAppMessage';
+import SendWhatsAppMessage from '@/app/components/SendWhatsAppMessage';
 
 const HomePage: React.FC = () => {
   return (

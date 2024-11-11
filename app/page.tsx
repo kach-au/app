@@ -1,4 +1,6 @@
 // app/page.tsx
+'use client';
+
 import SendWhatsAppMessage from '@/app/components/SendWhatsAppMessage';
 
 const HomePage: React.FC = () => {

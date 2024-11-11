@@ -1,6 +1,6 @@
 // components/SendWhatsAppMessage.tsx
 import { useState } from 'react';
-import { Card, CardHeader, CardTitle, CardContent, Input, Button } from '@shadcn/ui';
+import { Card, CardHeader, CardTitle, CardContent, Input, Button } from '@components/ui';
 
 const SendWhatsAppMessage: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
